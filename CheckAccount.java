@@ -61,11 +61,13 @@ public class CheckAccount extends BankAccount   {
 /** DIEZ = NUEVE + [{sobregiro -> atributo de tipo boolean, visibilidad privada, 
  * 					valorAutorizado -> atributo de tipo flotante, visibilidad privada,
  * 					sobregiroUsado -> atributo de tipo flotante, visiblidad privada,
- * 					deductFees -> método que deduce la tarifa de la cuenta bancaria de la clase BanckAccount,visibilidad pública,
- * 					valorAutorizado -> método que devuelve el valor autorizado de la clase BanckAccount, visiblidad pública
+ * 					deductFees -> método que deduce la tarifa de la cuenta bancaria de la clase BanckAccount,visibilidad pública, de tipo boolean,
+ * 					valorAutorizado -> método que devuelve el valor autorizado de la clase BanckAccount, visiblidad pública de tipo flotante,
  * 					valorUsado -> método que devuelve la cantidad usada de la cuenta de la clase BanckAccount, visibilidad pública,
  * 					autorizarSobregiro -> método que devuelve si puede o no hacer un sobregiro en la cuenta, visiblidad pública de tipo boolean,
- * 					
+ * 					withdraw -> método que permite iniciar un retiro de la cuenta , visibilidad pública de tipo boolean,
+ * 					minBalance -> atributo del mínimo valor de balance de la cuenta de tipo flotante, variable local,
+ * 					normalWithdraw -> atributo que guarda el valor mínimo para un retiro en la cuenta de la clase BanckAccount, variable local 
  * 					}] */
 				 
 			  } else {
@@ -115,4 +117,7 @@ public class CheckAccount extends BankAccount   {
 
 
 }
-// ONCE
+/** ONCE = DIEZ + [{
+ * }]
+ * 
+ */
