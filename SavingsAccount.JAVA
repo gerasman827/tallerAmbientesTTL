@@ -6,7 +6,10 @@ public  class SavingsAccount extends BankAccount {
 		  super(initialBalance);
 	      accountType='S';
 	      totalInterest=0;
-/** DOCE */
+/** DOCE = ONCE + [{
+ * 			totalInterest -> atributo de tipo flotante, visibilidad privada local a la clase.
+ * 			SavingsAccount -> constructor de la clase SavingsAccount
+ * 			}]*/
 	  }
 
 
