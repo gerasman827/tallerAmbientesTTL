@@ -43,4 +43,4 @@ class CuentasBancarias {
 		cuenta1.autorizarSobregiro();
 	}	
 }
-/** CUATRO: [TRES + {minBalance -> variable, de tipo entero, visibilidad pública }] */
+/** CUATRO =  [TRES + {minBalance -> variable, de tipo entero, visibilidad pública }] */
