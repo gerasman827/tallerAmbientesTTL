@@ -20,7 +20,7 @@ class CuentasBancarias {
   private static CheckAccount cuenta1, cuenta2;
   private static SavingsAccount cuenta3,cuenta4;
 /**
- * DOS [UNO]
+ * DOS = [UNO]
  */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
