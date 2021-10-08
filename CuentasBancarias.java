@@ -24,7 +24,7 @@ class CuentasBancarias {
  */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-/** TRES [DOS +{metodo main -> inicializa la clase, 
+/** TRES = [DOS +{metodo main -> inicializa la clase, 
  * 			variable args, visibilidad pública}]
 */
 		int minBalance = 10000;
